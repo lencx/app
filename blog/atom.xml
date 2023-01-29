@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://chatgpt.nofwl.com/blog</id>
+    <title>ChatGPT Blog</title>
+    <updated>2023-01-29T12:44:54.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://chatgpt.nofwl.com/blog"/>
+    <subtitle>ChatGPT Blog</subtitle>
+    <icon>https://chatgpt.nofwl.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Hello ChatGPT]]></title>
+        <id>https://chatgpt.nofwl.com/blog/hello-chatgpt</id>
+        <link href="https://chatgpt.nofwl.com/blog/hello-chatgpt"/>
+        <updated>2023-01-29T12:44:54.000Z</updated>
+        <summary type="html"><![CDATA[TODO]]></summary>
+        <content type="html"><![CDATA[<p>TODO</p>]]></content>
+        <author>
+            <name>lencx</name>
+            <uri>https://github.com/lencx</uri>
+        </author>
+        <category label="chatgpt" term="chatgpt"/>
+    </entry>
+</feed>
