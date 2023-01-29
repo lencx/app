@@ -4,7 +4,7 @@
         <title>ChatGPT Blog</title>
         <link>https://chatgpt.nofwl.com/blog</link>
         <description>ChatGPT Blog</description>
-        <lastBuildDate>Sun, 29 Jan 2023 12:44:54 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 29 Jan 2023 13:46:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[Hello ChatGPT]]></title>
             <link>https://chatgpt.nofwl.com/blog/hello-chatgpt</link>
             <guid>https://chatgpt.nofwl.com/blog/hello-chatgpt</guid>
-            <pubDate>Sun, 29 Jan 2023 12:44:54 GMT</pubDate>
+            <pubDate>Sun, 29 Jan 2023 13:46:22 GMT</pubDate>
             <description><![CDATA[TODO]]></description>
             <content:encoded><![CDATA[<p>TODO</p>]]></content:encoded>
             <category>chatgpt</category>
