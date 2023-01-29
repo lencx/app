@@ -8,13 +8,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'ChatGPT',
   tagline: 'ChatGPT Desktop Application (Mac, Windows and Linux)',
-  favicon: 'img/favicon.ico',
+  favicon: '/img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://chatgpt.nofwl.com',
+  url: 'https://app.nofwl.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
+  trailingSlash: false,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -72,7 +73,7 @@ const config = {
         title: 'ChatGPT',
         logo: {
           alt: 'ChatGPT',
-          src: 'img/logo.png',
+          src: '/img/logo.png',
         },
         items: [
           {
