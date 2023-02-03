@@ -30,7 +30,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'zh-CN'],
   },
 
   presets: [
@@ -84,6 +84,10 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
+            type: 'localeDropdown',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/lencx/ChatGPT',
             label: 'GitHub',
             position: 'right',
@@ -107,7 +111,7 @@ const config = {
         //     ],
         //   },
         // ],
-        copyright: `ChatGPT Desktop Application © ${new Date().getFullYear()} Created by lencx`,
+        copyright: `Copyright © ${new Date().getFullYear()} lencx`,
       },
       prism: {
         theme: lightCodeTheme,

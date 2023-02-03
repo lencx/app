@@ -27,4 +27,15 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  /* --ifm-background-color: #4a4a4a4a; */
+}
+
+.navbar--fixed-top {
+  backdrop-filter: saturate(50%) blur(8px);
+  background: rgba(255,255,255,.7);
+}
+
+[data-theme='dark'] .navbar--fixed-top {
+  background: rgba(40,40,40,.7);
 }
