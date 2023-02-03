@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://app.nofwl.com/blog</id>
+    <id>https://app.nofwl.com/zh-CN/blog</id>
     <title>ChatGPT Blog</title>
     <updated>2023-02-03T14:00:56.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://app.nofwl.com/blog"/>
+    <link rel="alternate" href="https://app.nofwl.com/zh-CN/blog"/>
     <subtitle>ChatGPT Blog</subtitle>
-    <icon>https://app.nofwl.com/img/favicon.ico</icon>
+    <icon>https://app.nofwl.com/zh-CN/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Hello ChatGPT]]></title>
-        <id>https://app.nofwl.com/blog/hello-chatgpt</id>
-        <link href="https://app.nofwl.com/blog/hello-chatgpt"/>
+        <title type="html"><![CDATA[你好 ChatGPT]]></title>
+        <id>https://app.nofwl.com/zh-CN/blog/hello-chatgpt</id>
+        <link href="https://app.nofwl.com/zh-CN/blog/hello-chatgpt"/>
         <updated>2023-02-03T14:00:56.000Z</updated>
         <summary type="html"><![CDATA[TODO]]></summary>
         <content type="html"><![CDATA[<p>TODO</p>]]></content>
