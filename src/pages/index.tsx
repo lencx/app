@@ -1,8 +1,6 @@
 import React from 'react';
 import clsx from 'clsx';
-import Link from '@docusaurus/Link';
 import Layout from '@theme/Layout';
-import Translate from '@docusaurus/Translate';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
@@ -15,24 +13,16 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            <Translate id="chatgpt.user.guide">ChatGPT User's Guide</Translate>
-          </Link>
-        </div>
       </div>
     </header>
   );
 }
 
-export default function Home(): JSX.Element {
-  const {siteConfig} = useDocusaurusContext();
+export default function Home() {
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="ChatGPT Desktop Application (Mac, Windows and Linux)">
+      title="Home"
+      description="">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

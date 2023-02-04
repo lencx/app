@@ -1,0 +1,16 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+  text-align: left;
+}
+
+.feat-icon {
+  text-align: center;
+  img {
+    max-height: 160px;
+    max-width: 160px;
+    user-select: none;
+  }
+}

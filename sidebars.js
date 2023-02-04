@@ -8,8 +8,15 @@
 
  Create as many sidebars as you want.
  */
+ const fg = require('fast-glob');
 
 // @ts-check
+
+const sidebarsItems = (type, deep = 1) =>
+  fg.sync(
+    [`docs/${type}/**/*.{mdx,md}`],
+    { ignore: ['**/_*.{mdx,md}'], deep }
+  ).map(i => i.match(/docs\/(.*)\.md/)[1]);
 
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
@@ -28,6 +35,19 @@ const sidebars = {
     },
   ],
    */
+  chatgpt: [
+    {
+      type: 'category',
+      label: 'ChatGPT',
+      link: {
+        type: 'generated-index',
+        title: 'Guides',
+        slug: '/chatgpt',
+        keywords: ['chatgpt'],
+      },
+      items: sidebarsItems('chatgpt'),
+    },
+  ],
 };
 
 module.exports = sidebars;

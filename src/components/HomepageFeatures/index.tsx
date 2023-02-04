@@ -1,54 +1,34 @@
 import React from 'react';
-import clsx from 'clsx';
-import styles from './styles.module.css';
+import Translate from '@docusaurus/Translate';
+
+import './styles.scss';
 
 type FeatureItem = {
   title: string;
-  Svg?: React.ComponentType<React.ComponentProps<'svg'>>;
+  icon: string;
   description: JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'System Support',
+    title: 'ChatGPT',
+    icon: require('@site/static/img/chatgpt.png').default,
     description: (
-      <>
-        <div>Multi-platform: <code>macOS</code> / <code>Windows</code> / <code>Linux</code></div>
-        <div>System tray hover window</div>
-        <div>Common shortcut keys & Customize global shortcuts</div>
-        <div>Powerful menu items</div>
-        <div>Automatic application upgrade notification</div>
-      </>
-    ),
-  },
-  {
-    title: 'ChatGPT Extension',
-    description: (
-      <>
-        <div>Support for slash commands and their configuration</div>
-        <div>Export ChatGPT history (<code>PNG</code>, <code>PDF</code> and <code>Markdown</code>)</div>
-        <div>Pop-up Search</div>
-      </>
-    ),
-  },
-  {
-    title: 'Web Application',
-    description: (
-      <>
-        <div>Making a web page more like a desktop application is just the beginning, the possibilities are unlimited, up to your imagination!</div>
-      </>
+      <Translate id="feat.chatgpt.desc">
+        ChatGPT is a cross-platform desktop application (for Mac, Windows, and Linux) that is simply a website wrapper that extends the functionality of the original website.
+      </Translate>
     ),
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, icon, description}: FeatureItem) {
   return (
-    <div className={clsx('col col--4')}>
-      {/* <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div> */}
+    <div className="col col--4">
+      <div className="feat-icon">
+        <img src={icon} alt={title} />
+      </div>
       <div className="padding-horiz--md">
-        <h3>{title}</h3>
+        <h3 className="text--center">{title}</h3>
         <p>{description}</p>
       </div>
     </div>
@@ -57,7 +37,7 @@ function Feature({title, Svg, description}: FeatureItem) {
 
 export default function HomepageFeatures(): JSX.Element {
   return (
-    <section className={styles.features}>
+    <section className="features">
       <div className="container">
         <div className="row">
           {FeatureList.map((props, idx) => (
