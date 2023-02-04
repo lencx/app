@@ -45,7 +45,9 @@ const sidebars = {
         slug: '/chatgpt',
         keywords: ['chatgpt'],
       },
-      items: sidebarsItems('chatgpt'),
+      items: //sidebarsItems('chatgpt')
+      //fix:make sidebar items in order
+      ['chatgpt/install','chatgpt/config','chatgpt/menu','chatgpt/tray'],
     },
   ],
 };
