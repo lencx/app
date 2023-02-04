@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapp=self.webpackChunkapp||[]).push([[492],{3155:t=>{t.exports=JSON.parse('{"title":"Guides","keywords":["chatgpt"],"slug":"/chatgpt","permalink":"/zh-CN/docs/chatgpt","navigation":{"next":{"title":"\u4e0b\u8f7d\u4e0e\u5b89\u88c5","permalink":"/zh-CN/docs/chatgpt/install"}}}')}}]);

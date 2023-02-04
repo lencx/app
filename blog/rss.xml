@@ -4,7 +4,7 @@
         <title>NoFWL Blog</title>
         <link>https://app.nofwl.com/blog</link>
         <description>NoFWL Blog</description>
-        <lastBuildDate>Sat, 04 Feb 2023 03:33:31 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 04 Feb 2023 09:43:30 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[Hello ChatGPT]]></title>
             <link>https://app.nofwl.com/blog/hello-chatgpt</link>
             <guid>https://app.nofwl.com/blog/hello-chatgpt</guid>
-            <pubDate>Sat, 04 Feb 2023 03:33:31 GMT</pubDate>
+            <pubDate>Sat, 04 Feb 2023 09:43:30 GMT</pubDate>
             <description><![CDATA[TODO]]></description>
             <content:encoded><![CDATA[<p>TODO</p>]]></content:encoded>
             <category>chatgpt</category>
