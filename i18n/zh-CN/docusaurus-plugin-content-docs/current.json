@@ -2,5 +2,17 @@
   "version.label": {
     "message": "Next",
     "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.chatgpt": {
+    "message": "chatgpt",
+    "description": "The label for category chatgpt in sidebar tutorialSidebar"
+  },
+  "sidebar.chatgpt.category.ChatGPT": {
+    "message": "ChatGPT",
+    "description": "The label for category ChatGPT in sidebar chatgpt"
+  },
+  "sidebar.chatgpt.category.ChatGPT.link.generated-index.title": {
+    "message": "Guides",
+    "description": "The generated-index page title for category ChatGPT in sidebar chatgpt"
   }
 }

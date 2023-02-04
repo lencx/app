@@ -1,11 +1,11 @@
 {
   "title": {
-    "message": "ChatGPT",
+    "message": "NoFWL",
     "description": "The title in the navbar"
   },
-  "item.label.Tutorial": {
-    "message": "Tutorial",
-    "description": "Navbar item with label Tutorial"
+  "item.label.ChatGPT": {
+    "message": "ChatGPT",
+    "description": "Navbar item with label ChatGPT"
   },
   "item.label.Blog": {
     "message": "Blog",

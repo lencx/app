@@ -1,4 +1,24 @@
 {
+  "link.title.Application": {
+    "message": "应用",
+    "description": "The title of the footer links column with title=Application in the footer"
+  },
+  "link.title.Community": {
+    "message": "社区",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.item.label.lencx/ChatGPT": {
+    "message": "lencx/ChatGPT",
+    "description": "The label of footer link with label=lencx/ChatGPT linking to https://github.com/lencx/ChatGPT"
+  },
+  "link.item.label.Discord": {
+    "message": "Discord",
+    "description": "The label of footer link with label=Discord linking to https://discord.gg/aPhCRf4zZr"
+  },
+  "link.item.label.Twitter": {
+    "message": "Twitter",
+    "description": "The label of footer link with label=Twitter linking to https://twitter.com/lencx_"
+  },
   "copyright": {
     "message": "Copyright © 2023 lencx",
     "description": "The footer copyright"
