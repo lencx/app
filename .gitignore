@@ -5,8 +5,10 @@
 /build
 
 # Generated files
+/.yarn
 .docusaurus
 .cache-loader
+.yarnrc.yml
 
 # Misc
 .DS_Store
