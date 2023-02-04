@@ -31,11 +31,11 @@
   /* --ifm-background-color: #4a4a4a4a; */
 }
 
-.navbar--fixed-top {
-  backdrop-filter: saturate(50%) blur(8px);
-  background: rgba(255,255,255,.7);
-}
+// .navbar--fixed-top {
+//   backdrop-filter: saturate(50%) blur(8px);
+//   background: rgba(255,255,255,.7);
+// }
 
-[data-theme='dark'] .navbar--fixed-top {
-  background: rgba(40,40,40,.7);
-}
+// [data-theme='dark'] .navbar--fixed-top {
+//   background: rgba(40,40,40,.7);
+// }

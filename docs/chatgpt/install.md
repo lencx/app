@@ -1,5 +1,6 @@
 ---
-title: "Installation"
+title: Installation
+description: Support macOS, Windows, Linux multi-platform installation
 ---
 
 ## Windows

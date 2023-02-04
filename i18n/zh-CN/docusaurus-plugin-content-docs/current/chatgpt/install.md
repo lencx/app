@@ -1,5 +1,6 @@
 ---
-title: "下载与安装"
+title: 下载与安装
+description: 支持 macOS，Windows，Linux 多平台安装
 ---
 
 ## Windows

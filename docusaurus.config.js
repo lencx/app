@@ -44,9 +44,13 @@ const config = {
         },
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl: 'https://github.com/lencx/app/tree/main',
+          routeBasePath: '/',
+          path: 'docs/',
+          exclude: ['docs/**', '**/_*.{md,mdx}'],
+          editCurrentVersion: false,
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
         },
         blog: {
           showReadingTime: true,
@@ -78,21 +82,10 @@ const config = {
         },
         items: [
           { to: '/blog', label: 'Blog', position: 'left' },
-          {
-            type: 'doc',
-            docId: 'chatgpt/config',
-            position: 'left',
-            label: 'ChatGPT',
-          },
-          {
-            type: 'localeDropdown',
-            position: 'right',
-          },
-          {
-            href: 'https://github.com/lencx',
-            label: 'GitHub',
-            position: 'right',
-          },
+          { to: '/chatgpt', label: 'ChatGPT', position: 'left' },
+          { to: '/contributors', label: 'Contributors', position: 'right' },
+          { type: 'localeDropdown', position: 'right' },
+          { href: 'https://github.com/lencx', label: 'GitHub', 'aria-label': 'GitHub', position: 'right' },
         ],
       },
       footer: {

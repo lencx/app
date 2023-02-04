@@ -12,7 +12,7 @@
     "description": "The label for category ChatGPT in sidebar chatgpt"
   },
   "sidebar.chatgpt.category.ChatGPT.link.generated-index.title": {
-    "message": "Guides",
+    "message": "使用指南",
     "description": "The generated-index page title for category ChatGPT in sidebar chatgpt"
   }
 }
