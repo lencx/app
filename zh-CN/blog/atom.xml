@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://app.nofwl.com/zh-CN/blog</id>
     <title>NoFWL Blog</title>
-    <updated>2023-02-04T12:19:29.000Z</updated>
+    <updated>2023-02-06T06:43:33.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://app.nofwl.com/zh-CN/blog"/>
     <subtitle>NoFWL Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[你好 ChatGPT]]></title>
         <id>https://app.nofwl.com/zh-CN/blog/hello-chatgpt</id>
         <link href="https://app.nofwl.com/zh-CN/blog/hello-chatgpt"/>
-        <updated>2023-02-04T12:19:29.000Z</updated>
+        <updated>2023-02-06T06:43:33.000Z</updated>
         <summary type="html"><![CDATA[TODO]]></summary>
         <content type="html"><![CDATA[<p>TODO</p>]]></content>
         <author>
