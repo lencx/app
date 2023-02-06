@@ -49,4 +49,5 @@ Homebrew安装的不是最新版客户端，我们期待有人能提交pr来帮�
 
 - [chat-gpt_0.10.3_amd64.deb](https://github.com/lencx/ChatGPT/releases/download/v0.10.3/chat-gpt_0.10.3_amd64.deb)
 - [chat-gpt_0.10.3_amd64.AppImage](https://github.com/lencx/ChatGPT/releases/download/v0.10.3/chat-gpt_0.10.3_amd64.AppImage): **工作可靠，`.deb` 运行失败时可以尝试它**
-- 在 [AUR](https://aur.archlinux.org/packages/chatgpt-desktop-bin) 上存在以 `chatgpt-desktop-bin`为包名的非官方发布，你可以使用你偏爱的 AUR 客户端来安装它。
+- 在 [AUR](https://aur.archlinux.org/packages/chatgpt-desktop-bin) 上存在以 `chatgpt-desktop-bin`为包名的非官方发布，你可以使用你偏爱的 AUR 客户端来安装它。此包基于GitHub Release页面中的`.deb`安装包，在构建过程中依赖较少。
+- 在 [AUR](https://aur.archlinux.org/packages/chatgpt-desktop-git) 上同时存在以 `chatgpt-desktop-git`为包名的非官方发布，你可以使用你偏爱的 AUR 客户端来安装它。此包基于GitHub仓库中的源代码（`main`分支的最后一次提交），构建过程中依赖较多。
