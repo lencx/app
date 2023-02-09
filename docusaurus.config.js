@@ -3,6 +3,7 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const path = require('path');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -73,6 +74,9 @@ const config = {
         { name: 'viewport', content: 'width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no' },
         { name: 'keyword', content: 'nofwl,lencx,chatgpt,macos,linux,windows,desktop,tauri' },
       ],
+      googleAdsense: {
+        dataAdClient: 'ca-pub-5066880741262012',
+      },
       navbar: {
         title: 'NoFWL',
         logo: {
@@ -123,6 +127,7 @@ const config = {
     }),
 
   plugins: [
+    path.resolve(__dirname, 'plugins', 'ads'),
     'docusaurus-plugin-sass',
     [
       '@docusaurus/plugin-pwa',
