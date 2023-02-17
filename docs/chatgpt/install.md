@@ -13,7 +13,7 @@ description: Support macOS, Windows, Linux multi-platform installation
   winget install --id=lencx.ChatGPT -e
 
   # install the specified version
-  winget install --id=lencx.ChatGPT -e --version 0.10.0
+  winget install --id=lencx.ChatGPT -e --version 0.11.0
   ```
 
 :::caution
