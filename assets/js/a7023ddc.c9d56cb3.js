@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapp=self.webpackChunkapp||[]).push([[713],{3457:a=>{a.exports=JSON.parse('[{"label":"ChatGPT","permalink":"/blog/tags/chat-gpt","count":2},{"label":"AI","permalink":"/blog/tags/ai","count":2}]')}}]);

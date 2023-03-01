@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkapp=self.webpackChunkapp||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u4e00\u6587\u8bfb\u61c2 OpenAI","permalink":"/blog/about-openai"},{"title":"ChatGPT \u626b\u76f2\u6307\u5357","permalink":"/blog/chatgpt-guide"}]}')}}]);
