@@ -89,7 +89,7 @@ const config = {
           { to: '/chatgpt', label: 'ChatGPT', position: 'left' },
           { to: '/contributors', label: 'Contributors', position: 'right' },
           { type: 'localeDropdown', position: 'right' },
-          { href: 'https://github.com/lencx', label: 'GitHub', 'aria-label': 'GitHub', position: 'right' },
+          { href: 'https://github.com/lencx/app', label: 'GitHub', 'aria-label': 'GitHub', position: 'right' },
         ],
       },
       footer: {
