@@ -1,17 +1,20 @@
 import React from 'react';
 import Translate from '@docusaurus/Translate';
+import Link from '@docusaurus/Link';
 
 import './styles.scss';
 
 type FeatureItem = {
   title: string;
   icon: string;
+  link: string;
   description: JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
   {
     title: 'ChatGPT',
+    link: '/chatgpt',
     icon: require('@site/static/img/chatgpt.png').default,
     description: (
       <Translate id="feat.chatgpt.desc">
@@ -21,9 +24,10 @@ const FeatureList: FeatureItem[] = [
   },
 ];
 
-function Feature({title, icon, description}: FeatureItem) {
+function Feature({ title, icon, description, link }: FeatureItem) {
+  // const
   return (
-    <div className="col col--4">
+    <Link className="feat-item col col--4" to={link}>
       <div className="feat-icon">
         <img src={icon} alt={title} />
       </div>
@@ -31,7 +35,7 @@ function Feature({title, icon, description}: FeatureItem) {
         <h3 className="text--center">{title}</h3>
         <p>{description}</p>
       </div>
-    </div>
+    </Link>
   );
 }
 
