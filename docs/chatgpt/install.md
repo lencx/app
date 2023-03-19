@@ -51,3 +51,13 @@ Homebrew installation did't use the latest version, and we are welcome you submi
 - [ChatGPT_0.11.0_linux_x86_64.AppImage.tar.gz](https://github.com/lencx/ChatGPT/releases/download/v0.11.0/ChatGPT_0.11.0_linux_x86_64.AppImage.tar.gz): Works reliably, you can try it if `.deb` fails to run
 - Available on [AUR](https://aur.archlinux.org/packages/chatgpt-desktop-bin) (unofficial)with the package name `chatgpt-desktop-bin`, and you can use your favourite AUR package manager to install it.This package uses the `.deb` installer from the release page,with less dependencies in the build process.
 - Also available on [AUR](https://aur.archlinux.org/packages/chatgpt-desktop-git) (unofficial) with the package name `chatgpt-desktop-git`, and you can use your favourite AUR package manager to install it.This package always builds from the latest commits of `main` branch, with more dependencies in the build process.
+
+
+## 👀 Preview
+
+![install](./assets/install.png)
+![chatgpt-popup-search](./assets/chatgpt-popup-search.png)
+![chatgpt-control-center-general](./assets/chatgpt-control-center-general.png)
+![chatgpt-export](./assets/chatgpt-export.png)
+![chatgpt-dalle2-tray](./assets/chatgpt-dalle2-tray.png)
+![auto-update](./assets/auto-update.png)
