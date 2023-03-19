@@ -36,7 +36,14 @@ const sidebars = {
       },
       items: //sidebarsItems('chatgpt')
       //fix:make sidebar items in order
-      ['chatgpt/install','chatgpt/faq','chatgpt/config','chatgpt/menu','chatgpt/tray'],
+      [
+        'chatgpt/install',
+        'chatgpt/prompts',
+        'chatgpt/faq',
+        'chatgpt/config',
+        'chatgpt/menu',
+        'chatgpt/build',
+      ],
     },
   ]
 };
